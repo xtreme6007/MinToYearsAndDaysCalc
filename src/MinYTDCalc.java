@@ -8,7 +8,7 @@ public class MinYTDCalc {
         int days = hours / 24;
         int years = days /365;
         int remainingDays = days % 365;
-        System.out.println(minutes + " min = " + years + " y" + remainingDays + " d");
+        System.out.println(minutes + " min = " + years + "y " + remainingDays + "d");
 
     }
 }
